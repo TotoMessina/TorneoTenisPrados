@@ -1,0 +1,217 @@
+{
+  "equipos": [
+    { "id": 1, "nombre": "Pablo - Santiago", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 2, "nombre": "Gabriel - Gonzalo", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 3, "nombre": "Claudio M. - Javier", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 4, "nombre": "Leo C. - Fernando", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 5, "nombre": "Marcos - Federico", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 6, "nombre": "Leandro - Leo F.", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 7, "nombre": "Claudio B. - Sebastian", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 8, "nombre": "Nahuel L. - Christian L.", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 9, "nombre": "Marcos M. - Jorge", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 10, "nombre": "Diego L . - Facundo", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 11, "nombre": "Cristin - Ale", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 12, "nombre": "Daniel - Gaston", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 13, "nombre": "Nestor - Diego F.", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 14, "nombre": "Ricardo - Emiliano", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 15, "nombre": "Luciana - Adriana", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 },
+    { "id": 16, "nombre": "Nestor - Hernan", "puntos": 0, "pj": 0, "pg": 0, "pp": 0 }
+  ],
+  "fixture": [
+    {
+      "fecha": 1,
+      "partidos": [
+        { "local": 1, "visitante": 16, "golesLocal": null, "golesVisitante": null },
+        { "local": 2, "visitante": 15, "golesLocal": null, "golesVisitante": null },
+        { "local": 3, "visitante": 14, "golesLocal": null, "golesVisitante": null },
+        { "local": 4, "visitante": 13, "golesLocal": null, "golesVisitante": null },
+        { "local": 5, "visitante": 12, "golesLocal": null, "golesVisitante": null },
+        { "local": 6, "visitante": 11, "golesLocal": null, "golesVisitante": null },
+        { "local": 7, "visitante": 10, "golesLocal": null, "golesVisitante": null },
+        { "local": 8, "visitante": 9, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 2,
+      "partidos": [
+        { "local": 1, "visitante": 2, "golesLocal": null, "golesVisitante": null },
+        { "local": 3, "visitante": 16, "golesLocal": null, "golesVisitante": null },
+        { "local": 4, "visitante": 15, "golesLocal": null, "golesVisitante": null },
+        { "local": 5, "visitante": 14, "golesLocal": null, "golesVisitante": null },
+        { "local": 6, "visitante": 13, "golesLocal": null, "golesVisitante": null },
+        { "local": 7, "visitante": 12, "golesLocal": null, "golesVisitante": null },
+        { "local": 8, "visitante": 11, "golesLocal": null, "golesVisitante": null },
+        { "local": 9, "visitante": 10, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 3,
+      "partidos": [
+        { "local": 1, "visitante": 3, "golesLocal": null, "golesVisitante": null },
+        { "local": 4, "visitante": 2, "golesLocal": null, "golesVisitante": null },
+        { "local": 5, "visitante": 16, "golesLocal": null, "golesVisitante": null },
+        { "local": 6, "visitante": 15, "golesLocal": null, "golesVisitante": null },
+        { "local": 7, "visitante": 14, "golesLocal": null, "golesVisitante": null },
+        { "local": 8, "visitante": 13, "golesLocal": null, "golesVisitante": null },
+        { "local": 9, "visitante": 12, "golesLocal": null, "golesVisitante": null },
+        { "local": 10, "visitante": 11, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 4,
+      "partidos": [
+        { "local": 1, "visitante": 4, "golesLocal": null, "golesVisitante": null },
+        { "local": 5, "visitante": 3, "golesLocal": null, "golesVisitante": null },
+        { "local": 6, "visitante": 2, "golesLocal": null, "golesVisitante": null },
+        { "local": 7, "visitante": 16, "golesLocal": null, "golesVisitante": null },
+        { "local": 8, "visitante": 15, "golesLocal": null, "golesVisitante": null },
+        { "local": 9, "visitante": 14, "golesLocal": null, "golesVisitante": null },
+        { "local": 10, "visitante": 13, "golesLocal": null, "golesVisitante": null },
+        { "local": 11, "visitante": 12, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 5,
+      "partidos": [
+        { "local": 1, "visitante": 5, "golesLocal": null, "golesVisitante": null },
+        { "local": 6, "visitante": 4, "golesLocal": null, "golesVisitante": null },
+        { "local": 7, "visitante": 3, "golesLocal": null, "golesVisitante": null },
+        { "local": 8, "visitante": 2, "golesLocal": null, "golesVisitante": null },
+        { "local": 9, "visitante": 16, "golesLocal": null, "golesVisitante": null },
+        { "local": 10, "visitante": 15, "golesLocal": null, "golesVisitante": null },
+        { "local": 11, "visitante": 14, "golesLocal": null, "golesVisitante": null },
+        { "local": 12, "visitante": 13, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 6,
+      "partidos": [
+        { "local": 1, "visitante": 6, "golesLocal": null, "golesVisitante": null },
+        { "local": 7, "visitante": 5, "golesLocal": null, "golesVisitante": null },
+        { "local": 8, "visitante": 4, "golesLocal": null, "golesVisitante": null },
+        { "local": 9, "visitante": 3, "golesLocal": null, "golesVisitante": null },
+        { "local": 10, "visitante": 2, "golesLocal": null, "golesVisitante": null },
+        { "local": 11, "visitante": 16, "golesLocal": null, "golesVisitante": null },
+        { "local": 12, "visitante": 15, "golesLocal": null, "golesVisitante": null },
+        { "local": 13, "visitante": 14, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 7,
+      "partidos": [
+        { "local": 1, "visitante": 7, "golesLocal": null, "golesVisitante": null },
+        { "local": 8, "visitante": 6, "golesLocal": null, "golesVisitante": null },
+        { "local": 9, "visitante": 5, "golesLocal": null, "golesVisitante": null },
+        { "local": 10, "visitante": 4, "golesLocal": null, "golesVisitante": null },
+        { "local": 11, "visitante": 3, "golesLocal": null, "golesVisitante": null },
+        { "local": 12, "visitante": 2, "golesLocal": null, "golesVisitante": null },
+        { "local": 13, "visitante": 16, "golesLocal": null, "golesVisitante": null },
+        { "local": 14, "visitante": 15, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 8,
+      "partidos": [
+        { "local": 1, "visitante": 8, "golesLocal": null, "golesVisitante": null },
+        { "local": 9, "visitante": 7, "golesLocal": null, "golesVisitante": null },
+        { "local": 10, "visitante": 6, "golesLocal": null, "golesVisitante": null },
+        { "local": 11, "visitante": 5, "golesLocal": null, "golesVisitante": null },
+        { "local": 12, "visitante": 4, "golesLocal": null, "golesVisitante": null },
+        { "local": 13, "visitante": 3, "golesLocal": null, "golesVisitante": null },
+        { "local": 14, "visitante": 2, "golesLocal": null, "golesVisitante": null },
+        { "local": 15, "visitante": 16, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 9,
+      "partidos": [
+        { "local": 1, "visitante": 9, "golesLocal": null, "golesVisitante": null },
+        { "local": 10, "visitante": 8, "golesLocal": null, "golesVisitante": null },
+        { "local": 11, "visitante": 7, "golesLocal": null, "golesVisitante": null },
+        { "local": 12, "visitante": 6, "golesLocal": null, "golesVisitante": null },
+        { "local": 13, "visitante": 5, "golesLocal": null, "golesVisitante": null },
+        { "local": 14, "visitante": 4, "golesLocal": null, "golesVisitante": null },
+        { "local": 15, "visitante": 3, "golesLocal": null, "golesVisitante": null },
+        { "local": 16, "visitante": 2, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 10,
+      "partidos": [
+        { "local": 1, "visitante": 10, "golesLocal": null, "golesVisitante": null },
+        { "local": 11, "visitante": 9, "golesLocal": null, "golesVisitante": null },
+        { "local": 12, "visitante": 8, "golesLocal": null, "golesVisitante": null },
+        { "local": 13, "visitante": 7, "golesLocal": null, "golesVisitante": null },
+        { "local": 14, "visitante": 6, "golesLocal": null, "golesVisitante": null },
+        { "local": 15, "visitante": 5, "golesLocal": null, "golesVisitante": null },
+        { "local": 16, "visitante": 4, "golesLocal": null, "golesVisitante": null },
+        { "local": 2, "visitante": 3, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 11,
+      "partidos": [
+        { "local": 1, "visitante": 11, "golesLocal": null, "golesVisitante": null },
+        { "local": 12, "visitante": 10, "golesLocal": null, "golesVisitante": null },
+        { "local": 13, "visitante": 9, "golesLocal": null, "golesVisitante": null },
+        { "local": 14, "visitante": 8, "golesLocal": null, "golesVisitante": null },
+        { "local": 15, "visitante": 7, "golesLocal": null, "golesVisitante": null },
+        { "local": 16, "visitante": 6, "golesLocal": null, "golesVisitante": null },
+        { "local": 2, "visitante": 5, "golesLocal": null, "golesVisitante": null },
+        { "local": 3, "visitante": 4, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 12,
+      "partidos": [
+        { "local": 1, "visitante": 12, "golesLocal": null, "golesVisitante": null },
+        { "local": 13, "visitante": 11, "golesLocal": null, "golesVisitante": null },
+        { "local": 14, "visitante": 10, "golesLocal": null, "golesVisitante": null },
+        { "local": 15, "visitante": 9, "golesLocal": null, "golesVisitante": null },
+        { "local": 16, "visitante": 8, "golesLocal": null, "golesVisitante": null },
+        { "local": 2, "visitante": 7, "golesLocal": null, "golesVisitante": null },
+        { "local": 3, "visitante": 6, "golesLocal": null, "golesVisitante": null },
+        { "local": 4, "visitante": 5, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 13,
+      "partidos": [
+        { "local": 1, "visitante": 13, "golesLocal": null, "golesVisitante": null },
+        { "local": 14, "visitante": 12, "golesLocal": null, "golesVisitante": null },
+        { "local": 15, "visitante": 11, "golesLocal": null, "golesVisitante": null },
+        { "local": 16, "visitante": 10, "golesLocal": null, "golesVisitante": null },
+        { "local": 2, "visitante": 9, "golesLocal": null, "golesVisitante": null },
+        { "local": 3, "visitante": 8, "golesLocal": null, "golesVisitante": null },
+        { "local": 4, "visitante": 7, "golesLocal": null, "golesVisitante": null },
+        { "local": 5, "visitante": 6, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 14,
+      "partidos": [
+        { "local": 1, "visitante": 14, "golesLocal": null, "golesVisitante": null },
+        { "local": 15, "visitante": 13, "golesLocal": null, "golesVisitante": null },
+        { "local": 16, "visitante": 12, "golesLocal": null, "golesVisitante": null },
+        { "local": 2, "visitante": 11, "golesLocal": null, "golesVisitante": null },
+        { "local": 3, "visitante": 10, "golesLocal": null, "golesVisitante": null },
+        { "local": 4, "visitante": 9, "golesLocal": null, "golesVisitante": null },
+        { "local": 5, "visitante": 8, "golesLocal": null, "golesVisitante": null },
+        { "local": 6, "visitante": 7, "golesLocal": null, "golesVisitante": null }
+      ]
+    },
+    {
+      "fecha": 15,
+      "partidos": [
+        { "local": 1, "visitante": 15, "golesLocal": null, "golesVisitante": null },
+        { "local": 16, "visitante": 14, "golesLocal": null, "golesVisitante": null },
+        { "local": 2, "visitante": 13, "golesLocal": null, "golesVisitante": null },
+        { "local": 3, "visitante": 12, "golesLocal": null, "golesVisitante": null },
+        { "local": 4, "visitante": 11, "golesLocal": null, "golesVisitante": null },
+        { "local": 5, "visitante": 10, "golesLocal": null, "golesVisitante": null },
+        { "local": 6, "visitante": 9, "golesLocal": null, "golesVisitante": null },
+        { "local": 7, "visitante": 8, "golesLocal": null, "golesVisitante": null }
+      ]
+    }
+  ]
+}

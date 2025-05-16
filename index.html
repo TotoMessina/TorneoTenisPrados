@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneo 16 Equipos | Fixture Interactivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header con toggle de tema -->
+    <header>
+        <h1>Torneo <span>16 Equipos</span></h1>
+        <button id="toggle-theme">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </button>
+    </header>
+
+    <!-- Selector de fecha -->
+    <div class="selector-container">
+        <select id="fecha" onchange="cargarFecha()">
+            <option value="0">Fecha 1</option>
+            <!-- Opciones generadas por JavaScript -->
+        </select>
+    </div>
+
+    <!-- Partidos de la fecha -->
+    <section class="partidos-container">
+        <div id="partidos-fecha" class="partidos-grid"></div>
+    </section>
+
+    <!-- Tabla de posiciones -->
+    <section class="tabla-container">
+        <h2>Tabla de Posiciones</h2>
+        <div class="tabla-scroll">
+            <table id="tabla-posiciones">
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Equipo</th>
+                        <th>Pts</th>
+                        <th>PJ</th>
+                        <th>PG</th>
+                        <th>PP</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpo-tabla"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
