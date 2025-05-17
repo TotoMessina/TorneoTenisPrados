@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Torneo Prados del Oeste</title>
+    <title>Liga de Tenis Prados del Oeste</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -11,7 +11,7 @@
 <body>
     <!-- Header con toggle de tema -->
     <header>
-        <h1>Torneo <span>Prados del Oeste</span></h1>
+        <h1>Liga de Tenis <br> <span>Prados del Oeste</span></h1>
         <button id="toggle-theme">
             <i class="fas fa-moon"></i>
             <i class="fas fa-sun"></i>
@@ -43,10 +43,11 @@
                         <th>Pts</th>
                         <th>PJ</th>
                         <th>PG</th>
-                        <th>PE</th>
+                        <th>PEG</th>
+                        <th>PEP</th>
                         <th>PP</th>
                         <th>PF</th>
-                        <th>PE</th>
+                        <th>PC</th>
                         <th>DP</th>
                     </tr>
                 </thead>
@@ -55,6 +56,54 @@
         </div>
     </section>
 
+    <button id="reglas-btn" title="Ver reglas">
+        <i class="fas fa-book"></i>
+    </button>
+
+    <div id="reglas-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="reglas-container">
+                <h2>Reglas de la Liga</h2>
+                <ul>
+                    <li><strong>Forma de juego:</strong> Todos contra todos</li>
+                    <li>Todas las semanas se jugará una fecha.</li>
+                    <li>Los partidos a jugarse durante la semana serán coordinados por ustedes respecto a su disponibilidad.</li>
+                    <li>Se enviará un link donde podrán ver el fixture, resultados y tabla de posiciones. (Igualmente todos los DOMINGOS se enviará por WhatsApp los partidos a jugarse en la semana).</li>
+                    <li>Todos los partidos se jugarán a dos set y, en caso de empate, un super tie break.</li>
+                    <li><strong>Puntos:</strong>
+                        <ul>
+                            <li>La pareja que gane 2 a 0 obtendrá 3 puntos.</li>
+                            <li>Si el partido culmina 1 a 1, cada pareja obtendrá 1 punto, más 1 extra aquella que gane el super tie break (es decir 2 a 1).</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
+        <script>
+        // Script para el modal de reglas
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('reglas-modal');
+            const btn = document.getElementById('reglas-btn');
+            const span = document.getElementsByClassName('close')[0];
+            
+            btn.onclick = function() {
+                modal.style.display = 'block';
+            }
+            
+            span.onclick = function() {
+                modal.style.display = 'none';
+            }
+            
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = 'none';
+                }
+            }
+        });
+    </script>
 </body>
 </html>

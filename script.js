@@ -55,10 +55,11 @@ async function cargarDatosDesdeSheets() {
       puntos: row[2],
       pj: row[3],
       pg: row[4],
-      pe: row[5],
-      pp: row[6],
-      gf: row[7],
-      gc: row[8]
+      peg: row[5],
+      pep: row[6],
+      pp: row[7],
+      gf: row[8],
+      gc: row[9]
     }));
 
     // Cargar fixture
@@ -96,7 +97,14 @@ async function cargarDatosDesdeSheets() {
 // ===== MOSTRAR DATOS =====
 function mostrarDatos() {
   // Mostrar tabla de posiciones
-  const equiposOrdenados = [...torneoData.equipos].sort((a, b) => b.puntos - a.puntos);
+  const equiposOrdenados = [...torneoData.equipos].sort((a, b) => {
+    // Primero ordena por puntos (descendente)
+    if (b.puntos !== a.puntos) {
+      return b.puntos - a.puntos;
+    }
+    // Si hay empate en puntos, ordena por diferencia de goles (descendente)
+    return (b.gf - b.gc) - (a.gf - a.gc);
+  });
   document.getElementById('cuerpo-tabla').innerHTML = equiposOrdenados.map((e, i) => `
     <tr>
       <td>${i + 1}</td>
@@ -104,7 +112,8 @@ function mostrarDatos() {
       <td>${e.puntos}</td>
       <td>${e.pj}</td>
       <td>${e.pg}</td>
-      <td>${e.pe}</td>
+      <td>${e.peg}</td>
+      <td>${e.pep}</td>
       <td>${e.pp}</td>
       <td>${e.gf}</td>
       <td>${e.gc}</td>
