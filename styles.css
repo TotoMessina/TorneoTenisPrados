@@ -206,7 +206,7 @@ h2 {
 }
 
 .partidos tr td:nth-child(1) {
-    text-align: left;
+    text-align: right;
 }
 
 .partidos tr td:nth-child(2) {
@@ -214,7 +214,7 @@ h2 {
 }
 
 .partidos tr td:nth-child(3) {
-    text-align: right;
+    text-align: left;
 }
 
 /* Modal de Reglas */
@@ -429,4 +429,8 @@ h2#titulo-fecha::after {
     height: 3px;
     background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
     border-radius: 3px;
+}
+
+li{
+    list-style-type: none;
 }
