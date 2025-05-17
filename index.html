@@ -32,29 +32,32 @@
     </section>
 
     <!-- Tabla de posiciones -->
-    <section class="tabla-container">
-        <h2>Tabla de Posiciones</h2>
-        <div class="tabla-scroll">
-            <table id="tabla-posiciones">
-                <thead>
-                    <tr>
-                        <th>Pos</th>
-                        <th>Equipo</th>
-                        <th>Pts</th>
-                        <th>PJ</th>
-                        <th>PG</th>
-                        <th>PEG</th>
-                        <th>PEP</th>
-                        <th>PP</th>
-                        <th>PF</th>
-                        <th>PC</th>
-                        <th>DP</th>
-                    </tr>
-                </thead>
-                <tbody id="cuerpo-tabla"></tbody>
-            </table>
+    <main class="main-content">
+        <div class="tabla-container">
+            <div class="tabla-scroll" id="tablaScroll">
+                <table id="tabla-posiciones">
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th>Equipo</th>
+                            <th>Pts</th>
+                            <th>PJ</th>
+                            <th>PG</th>
+                            <th>PEG</th>
+                            <th>PEP</th>
+                            <th>PP</th>
+                            <th>PF</th>
+                            <th>PC</th>
+                            <th>DP</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cuerpo-tabla">
+                        <!-- Los datos se cargarán con JavaScript -->
+                    </tbody>
+                </table>
+            </div>
         </div>
-    </section>
+    </main>
 
     <button id="reglas-btn" title="Ver reglas">
         <i class="fas fa-book"></i>
