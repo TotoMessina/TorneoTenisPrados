@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Liga de Tenis Prados del Oeste</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -103,6 +103,33 @@
                     modal.style.display = 'none';
                 }
             }
+        });
+        // Añade este script al final de tu body
+        document.addEventListener('DOMContentLoaded', function() {
+            const tablaScroll = document.querySelector('.tabla-scroll');
+            
+            // Función para manejar el touch
+            function handleTouch(e) {
+                if (e.touches.length === 1) {
+                    const touch = e.touches[0];
+                    const scrollWidth = tablaScroll.scrollWidth;
+                    const clientWidth = tablaScroll.clientWidth;
+                    
+                    // Si el contenido es más ancho que el contenedor
+                    if (scrollWidth > clientWidth) {
+                        // Permite el desplazamiento en ambas direcciones
+                        tablaScroll.style.overflowX = 'auto';
+                    }
+                }
+            }
+            
+            // Event listeners
+            tablaScroll.addEventListener('touchstart', handleTouch, {passive: true});
+            tablaScroll.addEventListener('touchmove', handleTouch, {passive: true});
+            
+            // Asegurar que el contenedor tenga espacio para el gesto
+            tablaScroll.style.paddingLeft = '20px';
+            tablaScroll.style.paddingRight = '20px';
         });
     </script>
 </body>
