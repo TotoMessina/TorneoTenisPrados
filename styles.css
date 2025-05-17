@@ -234,9 +234,9 @@ h2 {
     background-color: var(--card-bg);
     color: var(--text-color);
     margin: 10% auto;
-    padding: 30px;
+    padding: 20px;
     border-radius: 15px;
-    width: 85%;
+    width: 90%;
     max-width: 650px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
     position: relative;
@@ -347,7 +347,6 @@ h2 {
     
     .modal-content {
         width: 95%;
-        padding: 20px;
     }
 }
 
